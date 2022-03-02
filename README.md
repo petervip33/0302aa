@@ -30,7 +30,7 @@ proxies:
   - {name: sunny07香港Hk, server: yii30.vipvip11.top, port: 26002, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
   - {name: sunny08韩国Kr, server: yii37.vipvip11.top, port: 20779, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
   - {name: sunny09日本Jp, server: yii32.vipvip11.top, port: 20179, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny10俄罗斯r, server: yii33.vipvip11.top, port: 34115, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}1
+  - {name: sunny10俄罗斯r, server: yii33.vipvip11.top, port: 34115, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
   - {name: sunny11香港hk, server: yii40.vipvip11.top, port: 30012, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
   - {name: sunny12新加坡sgc, server: yii2.vipvip11.top, port: 20800, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
   - {name: sunny13香港hkc, server: yii21.vipvip11.top, port: 20279, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}

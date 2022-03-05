@@ -5,45 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 免费测试美国1号0228，长期稳定月10起步, server: usa1.wujie8.xyz, port: 4431, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa1.wujie8.xyz, skip-cert-verify: false}
-  - {name: 新加坡1号需要稳定实惠可以加Q1607928649, server: sga1.weipi.online, port: 4431, type: trojan, password: bLYUuMKgn1aHGKID, sni: sga1.weipi.online, skip-cert-verify: false}
-  - {name: 香港2号需要稳定实惠可以加Q1607928649, server: hka2.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: hka2.wujie8.xyz, skip-cert-verify: false}
-  - {name: 日本2号先测试后买套餐加Q1607928649, server: jpa2.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: jpa2.wujie8.xyz, skip-cert-verify: false}
-  - {name: 美国2号长期稳定实惠加Q1607928649, server: usb1.wujie8.xyz, port: 4431, type: trojan, password: bLYUuMKgn1aHGKID, sni: usb1.wujie8.xyz, skip-cert-verify: false}
-  - {name: 美国3号Q1607928649, server: usa3.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa3.wujie8.xyz, skip-cert-verify: false}
-  - {name: 美国4号Q1607928649, server: usa4.wujie8.xyz, port: 4431, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa4.wujie8.xyz, skip-cert-verify: false}
-  - {name: 美国5号Q1607928649, server: usa5.wujie8.xyz, port: 4431, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa5.wujie8.xyz, skip-cert-verify: false}
-  - {name: 美国6号Q1607928649, server: usa6.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa6.wujie8.xyz, skip-cert-verify: false}
-  - {name: 日本1号, server: jpa3.wujie8.xyz, port: 4431, type: trojan, password: bLYUuMKgn1aHGKID, sni: jpa3.wujie8.xyz, skip-cert-verify: false}
-  - {name: 香港1号, server: hka3.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: hka3.wujie8.xyz, skip-cert-verify: false}
-  - {name: 美国7号, server: usa7.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa7.wujie8.xyz, skip-cert-verify: false}
-  - {name: 美国8号, server: usa8.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa8.wujie8.xyz, skip-cert-verify: false}
-  - {name: 美国9号, server: usa9.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa9.wujie8.xyz, skip-cert-verify: false}
-  - {name: 美国10号, server: usa10.wujie8.xyz, port: 443, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa10.wujie8.xyz, skip-cert-verify: false}
-  - {name: 美国11号, server: usa11.wujie8.xyz, port: 4431, type: trojan, password: bLYUuMKgn1aHGKID, sni: usa11.wujie8.xyz, skip-cert-verify: false}
-  - {name: sunny01美国usc长期稳定月20起步, server: yii11.vipvip11.top, port: 22789, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny02香港Hk需要稳定实惠可以加Q1607928649, server: yii29.vipvip11.top, port: 26001, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny03新加坡sg先测试后买套餐加Q1607928649, server: yii10.vipvip11.top, port: 20900, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny04日本jp先测试后买套餐加Q1607928649, server: yii18.vipvip11.top, port: 32115, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny05日本jp加Q1607928649, server: yii26.vipvip11.top, port: 20026, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny06新加坡sg加Q1607928649, server: yii14.vipvip11.top, port: 30114, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny07香港Hk, server: yii30.vipvip11.top, port: 26002, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny08韩国Kr, server: yii37.vipvip11.top, port: 20779, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny09日本Jp, server: yii32.vipvip11.top, port: 20179, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny10俄罗斯r, server: yii33.vipvip11.top, port: 34115, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny11香港hk, server: yii40.vipvip11.top, port: 30012, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny12新加坡sgc, server: yii2.vipvip11.top, port: 20800, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny13香港hkc, server: yii21.vipvip11.top, port: 20279, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny14日本jp, server: yii24.vipvip11.top, port: 23006, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny15日本jp, server: yii34.vipvip11.top, port: 20018, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny16新加坡sg, server: yii27.vipvip11.top, port: 30113, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny17英国un, server: yii35.vipvip11.top, port: 31018, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny18日本jp, server: yii36.vipvip11.top, port: 20017, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny19美国usc, server: yii39.vipvip11.top, port: 22779, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny20美国us, server: yii8.vipvip11.top, port: 22788, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny21美国usc, server: yii1.vipvip11.top, port: 21779, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny22台湾tw, server: yii13.vipvip11.top, port: 20029, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
-  - {name: sunny23台湾tw, server: yii31.vipvip11.top, port: 32113, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:NTwqDQ, obfs-param: 88bb}
+  - {name: sunny01美国usy1001长期稳定月10起步, server: wii11.vipvip11.top, port: 22789, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:3nkp5zncw24, obfs-param: 88bb}
+  - {name: sunny02香港Hk需要稳定实惠可以加Q1607928649, server: wii29.vipvip11.top, port: 26001, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:3nkp5zncw24, obfs-param: 88bb}
+  - {name: sunny03新加坡sg先测试后买套餐加Q1607928649, server: wii10.vipvip11.top, port: 20900, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:3nkp5zncw24, obfs-param: 88bb}
+  - {name: sunny04日本jp先测试后买套餐月20起步多线路, server: wii18.vipvip11.top, port: 32115, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:3nkp5zncw24, obfs-param: 88bb}
+  - {name: sunny05日本jp加Q1607928649, server: wii26.vipvip11.top, port: 20026, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:3nkp5zncw24, obfs-param: 88bb}
+  - {name: sunny06新加坡sg加Q1607928649, server: wii14.vipvip11.top, port: 30114, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:3nkp5zncw24, obfs-param: 88bb}
+  - {name: sunny07香港Hk, server: wii30.vipvip11.top, port: 26002, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:3nkp5zncw24, obfs-param: 88bb}
+  - {name: sunny08韩国Kr, server: wii37.vipvip11.top, port: 20779, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:3nkp5zncw24, obfs-param: 88bb}
+  - {name: sunny09日本Jp, server: wii32.vipvip11.top, port: 20179, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:3nkp5zncw24, obfs-param: 88bb}
+  - {name: sunny10俄罗斯r, server: wii33.vipvip11.top, port: 34115, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 23202:3nkp5zncw24, obfs-param: 88bb}
 proxy-groups:
   - name: Proxies
     type: select
@@ -53,45 +24,16 @@ proxy-groups:
       - SG
       - TW
       - US
-      - 免费测试美国1号0228，长期稳定月10起步
-      - 新加坡1号需要稳定实惠可以加Q1607928649
-      - 香港2号需要稳定实惠可以加Q1607928649
-      - 日本2号先测试后买套餐加Q1607928649
-      - 美国2号长期稳定实惠加Q1607928649
-      - 美国3号Q1607928649
-      - 美国4号Q1607928649
-      - 美国5号Q1607928649
-      - 美国6号Q1607928649
-      - 日本1号
-      - 香港1号
-      - 美国7号
-      - 美国8号
-      - 美国9号
-      - 美国10号
-      - 美国11号
-      - sunny01美国usc长期稳定月20起步
+      - sunny01美国usy1001长期稳定月10起步
       - sunny02香港Hk需要稳定实惠可以加Q1607928649
       - sunny03新加坡sg先测试后买套餐加Q1607928649
-      - sunny04日本jp先测试后买套餐加Q1607928649
+      - sunny04日本jp先测试后买套餐月20起步多线路
       - sunny05日本jp加Q1607928649
       - sunny06新加坡sg加Q1607928649
       - sunny07香港Hk
       - sunny08韩国Kr
       - sunny09日本Jp
       - sunny10俄罗斯r
-      - sunny11香港hk
-      - sunny12新加坡sgc
-      - sunny13香港hkc
-      - sunny14日本jp
-      - sunny15日本jp
-      - sunny16新加坡sg
-      - sunny17英国un
-      - sunny18日本jp
-      - sunny19美国usc
-      - sunny20美国us
-      - sunny21美国usc
-      - sunny22台湾tw
-      - sunny23台湾tw
   - name: Netflix
     type: select
     proxies:
@@ -127,54 +69,27 @@ proxy-groups:
   - name: HK
     type: select
     proxies:
-      - 香港2号需要稳定实惠可以加Q1607928649
-      - 香港1号
       - sunny02香港Hk需要稳定实惠可以加Q1607928649
       - sunny07香港Hk
-      - sunny11香港hk
-      - sunny13香港hkc
   - name: JP
     type: select
     proxies:
-      - 日本2号先测试后买套餐加Q1607928649
-      - 日本1号
-      - sunny04日本jp先测试后买套餐加Q1607928649
+      - sunny04日本jp先测试后买套餐月20起步多线路
       - sunny05日本jp加Q1607928649
       - sunny09日本Jp
-      - sunny14日本jp
-      - sunny15日本jp
-      - sunny18日本jp
   - name: SG
     type: select
     proxies:
-      - 新加坡1号需要稳定实惠可以加Q1607928649
       - sunny03新加坡sg先测试后买套餐加Q1607928649
       - sunny06新加坡sg加Q1607928649
-      - sunny12新加坡sgc
-      - sunny16新加坡sg
   - name: TW
     type: select
     proxies:
-      - sunny22台湾tw
-      - sunny23台湾tw
+      - DIRECT
   - name: US
     type: select
     proxies:
-      - 免费测试美国1号0228，长期稳定月10起步
-      - 美国2号长期稳定实惠加Q1607928649
-      - 美国3号Q1607928649
-      - 美国4号Q1607928649
-      - 美国5号Q1607928649
-      - 美国6号Q1607928649
-      - 美国7号
-      - 美国8号
-      - 美国9号
-      - 美国10号
-      - 美国11号
-      - sunny01美国usc长期稳定月20起步
-      - sunny19美国usc
-      - sunny20美国us
-      - sunny21美国usc
+      - sunny01美国usy1001长期稳定月10起步
   - name: CN
     type: select
     proxies:
@@ -1058,4 +973,3 @@ rules:
  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
  - GEOIP,CN,DIRECT
  - MATCH,Proxies
-
